@@ -1,14 +1,5 @@
 #!/usr/bin/python3
-"""
-Purpose: Demonstration of Palindrome check
 
-    palindrome strings
-        dad
-        mom
+input = input("Enter value ")
 
-Algorithms:
------------
-Step 1: Take the string in run-time and store in a variable
-
-
-"""
+print(f"'{input}' is a palindrome." if input == input[::-1] else f"'{input}' is not a palindrome.")
