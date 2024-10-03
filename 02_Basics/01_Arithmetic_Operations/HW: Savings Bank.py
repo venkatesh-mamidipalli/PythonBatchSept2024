@@ -5,7 +5,7 @@ balance = 0
 print("Initial Balance:", balance)
 
 # Initial Deposit
-initial_deposit = 1500
+initial_deposit = 
 balance += initial_deposit
 print("After Initial Deposit of 1500: Balance =", balance)
 
