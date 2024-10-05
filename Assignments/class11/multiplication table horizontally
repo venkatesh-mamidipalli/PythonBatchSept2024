@@ -1,0 +1,12 @@
+# Horizontal Multiplication Table
+MAX_TABLE = 10
+
+second = 1
+while second <= MAX_TABLE:
+    first = 1
+    while first <= MAX_TABLE:
+        # Using f-string formatting with zero-padding
+        print(f"{first:02} * {second:02} = {first * second:03}", end=" | ")
+        first += 1
+    print()  # New line after each row
+    second += 1
