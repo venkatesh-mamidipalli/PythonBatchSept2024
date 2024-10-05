@@ -1,0 +1,12 @@
+# Full diamond pattern using for loop
+MAX_ROWS = 9
+
+# Top half of the diamond
+for num in range(MAX_ROWS):
+    # Printing leading spaces and asterisks
+    print(' ' * (MAX_ROWS - num - 1) + '*' * (2 * num + 1))
+
+# Bottom half of the diamond
+for num in range(MAX_ROWS - 2, -1, -1):
+    # Printing leading spaces and asterisks
+    print(' ' * (MAX_ROWS - num - 1) + '*' * (2 * num + 1))
